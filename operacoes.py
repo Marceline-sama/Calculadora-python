@@ -1,4 +1,4 @@
-class operacoes:
+class Operacoes:
     def soma(self, num1, num2):
         return num1 + num2
     
@@ -6,7 +6,12 @@ class operacoes:
         return num1 - num2
         
     def multi(self, num1, num2):
-        pass
+        return num1 * num2
         
     def div(self, num1, num2):
-
+        #if num1 < num2:
+            #return 0
+        if num2 == 0:
+            return 0
+        else:
+            return num1 / num2
