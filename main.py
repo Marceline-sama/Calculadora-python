@@ -29,7 +29,10 @@ def main():
         resultado = operacao.multi(num1, num2)
         print(f'A multiplicação de {num1} por {num2} é: {resultado}')
     if (op == 4):
-        pass#metodo da divisão
+        num1 = int(input("Digite o primeiro número: "))
+        num2 = int(input("Digite o segundo número: "))
+        resultado = operacao.div(num1, num2)
+        print(f'A multiplicação de {num1} por {num2} é: {resultado}')
 
 if __name__ == "__main__":
     main()
